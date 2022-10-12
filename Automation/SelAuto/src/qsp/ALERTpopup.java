@@ -10,7 +10,7 @@ public class ALERTpopup {
 
 
 	static{
-		System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","./driver/data/chromedriver.exe");
 	}
 
 	public static void main(String[] args) throws InterruptedException {

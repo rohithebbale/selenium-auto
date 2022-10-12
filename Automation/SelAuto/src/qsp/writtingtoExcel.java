@@ -1,5 +1,4 @@
 package qsp;
-
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -18,12 +17,6 @@ public class writtingtoExcel {
 		FileOutputStream fos = new FileOutputStream("./driver/data/tr.xlsx");
 		wb.write(fos);
 		wb.close();
-				
-		
-		
-		
-		
-
 	}
 
 }

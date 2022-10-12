@@ -21,7 +21,7 @@ public class ExplicitWait {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(Expected conditions.Tittle contains("Enter"));
 		String tittle = driver.getTitle();
-		System.out.println(Tittle);
+		System.out.println(tittle);
 		driver.close();
 		
 	}

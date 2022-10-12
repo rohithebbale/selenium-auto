@@ -9,7 +9,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class ALERTpopup {
 
 
-	static{
+	static
+	{
 		System.setProperty("webdriver.chrome.driver","./driver/chromedriver.exe");
 	}
 
